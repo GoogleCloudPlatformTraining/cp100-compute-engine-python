@@ -1,5 +1,5 @@
 FROM google/debian:wheezy
-MAINTAINER Joe Beda <joe.github@bedafamily.com>
+MAINTAINER Sharif Salah <sharif.salah+docker@gmail.com>
 
 RUN apt-get update && \
     apt-get install -y python-dev python-pip && \
