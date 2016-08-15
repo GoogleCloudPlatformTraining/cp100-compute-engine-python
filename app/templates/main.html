@@ -21,7 +21,7 @@
       </div>
       <ul class="list-group">
         {% for entry in entries %}
-        <li class="list-group-item" class=entry>{{ entry }}</li>
+        <li class="list-group-item" class=entry>{{ entry.decode('utf-8') }}</li>
         {% endfor %}
       </ul>
       <form role=form action="/clear" method=post>
